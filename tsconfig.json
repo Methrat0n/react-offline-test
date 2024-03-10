@@ -1,10 +1,18 @@
 {
   "compilerOptions": {
-    "allowJs": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "incremental": true,
     "sourceMap": true,
-    "jsx": "react",
-    "experimentalDecorators": true,
     "lib": [
       "dom",
       "es2017"

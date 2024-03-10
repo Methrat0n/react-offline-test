@@ -1,7 +1,4 @@
 import React from 'react';
+import { DataGridPage } from './pages/datagrid';
 
-const App = () => <h1>UK Energy Mix</h1>;
-
-export {
-    App
-}
+export const App = () => <DataGridPage />

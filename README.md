@@ -1,5 +1,19 @@
 # React Offline Test
 
+## Solution by Merlin Goulet
+```
+npm i && npm test && npm start
+```
+
+By going to http://localhost:8080/ you should see a diagram of the last 30 minutes of energy production.
+
+### Review
+Tests were written before coding, they do hold up, especially the model, but in a real project I'd add cypress on top.
+
+##### Canvas
+Because the data are render inside an htmk canvas there is a warning in the test as js-dom does not provide such a tag.
+You can ignore it.
+
 ## TLDR
 
 * This README describes the test - read it
